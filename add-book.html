@@ -67,16 +67,26 @@
         <div class="container">
             <form>
                 <h1 class="h3 my-4">Nuovo Libro</h1>
-                <div class="row">
-                    <div class="col-6 mb-3">
+                <div class="row mb-3">
+                    <div class="col-6">
                         <label for="firstName" class="form-label">Nome Autore</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="Inserisci il nome dell'autore">
+                        <input type="text" class="form-control" id="firstName"
+                            placeholder="Inserisci il nome dell'autore">
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-6">
                         <label for="lastName" class="form-label">Cognome Autore</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Inserisci il cognome dell'autore">
+                        <input type="text" class="form-control" id="lastName"
+                            placeholder="Inserisci il cognome dell'autore">
                     </div>
                 </div>
+                <!-- /Name -->
+
+                <div class="mb-3">
+                    <label for="bookTitle" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="bookTitle" aria-describedby="bookHelp" placeholder="Inserisci il titolo del libro">
+                    <div id="bookHelp" class="form-text">Titolo versione italiana</div>
+                </div>
+                <!-- /bookTitle -->
 
             </form>
             <!-- /form -->
