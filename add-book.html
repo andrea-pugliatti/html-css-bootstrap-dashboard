@@ -83,10 +83,41 @@
 
                 <div class="mb-3">
                     <label for="bookTitle" class="form-label">Titolo</label>
-                    <input type="text" class="form-control" id="bookTitle" aria-describedby="bookHelp" placeholder="Inserisci il titolo del libro">
+                    <input type="text" class="form-control" id="bookTitle" aria-describedby="bookHelp"
+                        placeholder="Inserisci il titolo del libro">
                     <div id="bookHelp" class="form-text">Titolo versione italiana</div>
                 </div>
                 <!-- /bookTitle -->
+
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-3">
+                        <label for="bookGenre" class="form-label">Genere</label>
+                        <select class="form-select" id="bookGenre" aria-label="Scegli il genere">
+                            <option selected>Scegli il genere</option>
+                            <option value="thriller">Thriller</option>
+                            <option value="fiction">Fiction</option>
+                            <option value="comedy">Commedia</option>
+                            <option value="action">Azione</option>
+                        </select>
+                    </div>
+                    <!-- /bookGenre -->
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <label for="bookYear" class="form-label">Anno di pubblicazione</label>
+                        <!-- input type="date"??? -->
+                        <input type="text" class="form-control" id="bookYear"
+                            placeholder="Inserisci l'anno">
+                    </div>
+                    <!-- /bookYear -->
+
+                    <div class="col-12 col-md-4 mb-3">
+                        <label for="bookISBN" class="form-label">Cognome Autore</label>
+                        <input type="text" class="form-control" id="bookISBN"
+                            placeholder="Inserisci il codice ISBN">
+                    </div>
+                    <!-- /bookISBN -->
+
+                </div>
 
             </form>
             <!-- /form -->
